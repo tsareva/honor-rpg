@@ -5,7 +5,7 @@ title = "Модуль по хонор"
 # The homepage contents
 [extra]
 lead = 'Все по модулю Леоцарева по <b>вселенной хонор</b>'
-url = "/docs/materials/teaser/"
+url = "/docs/orginfo/teaser/"
 url_button = "Тизер"
 
 # Menu items
