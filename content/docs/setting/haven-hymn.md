@@ -13,7 +13,7 @@ toc = false
 top = false
 +++
 
-Мелодия Starway to Haven.
+Мелодия Starway to Haven ([минусовка](<../StarwayToHaven-EFKLGFKLM.mp3>))
 
     Погляди, Гражданин,
     Как из мрачных руин
