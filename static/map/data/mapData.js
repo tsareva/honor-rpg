@@ -6126,7 +6126,7 @@ var mapData =[
     "id": 479
   },
   {
-    "name": "Congo",
+    "name": "Verdant Vista (Congo)",
     "position": {
       "x": 1348,
       "y": 1641,
@@ -9844,7 +9844,7 @@ var mapData =[
     "id": 765
   },
   {
-    "name": "",
+    "name": "Lorre",
     "position": {
       "x": 1540,
       "y": 2690,
