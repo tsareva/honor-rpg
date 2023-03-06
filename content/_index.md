@@ -41,4 +41,8 @@ content = 'Скачать <a href="/files/genesys-rus.pdf">правила Genesy
 title = "Персонаж"
 content = 'Как <a href="/docs/rules/create-character/">создать персонажа</a>'
 
+[[extra.list]]
+title = "Карта"
+content = '<a href="/map.html">Интерактивная карта вселенной</a>'
+
 +++
