@@ -31,7 +31,7 @@ weight = 30
 name = "Персонажи"
 section = "docs/chars"
 url = "/docs/chars/"
-weight = 30
+weight = 40
 
 [[extra.list]]
 title = "Genesys"
