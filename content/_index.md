@@ -27,6 +27,12 @@ section = "docs/orginfo"
 url = "/docs/orginfo/"
 weight = 30
 
+[[extra.menu.main]]
+name = "Персонажи"
+section = "docs/chars"
+url = "/docs/chars/"
+weight = 30
+
 [[extra.list]]
 title = "Genesys"
 content = 'Скачать <a href="/files/genesys-rus.pdf">правила Genesys</a>'
