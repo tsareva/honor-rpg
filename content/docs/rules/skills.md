@@ -4,7 +4,7 @@ description = "Скиллы"
 date = 2022-03-05
 updated = 2022-03-05
 draft = false
-weight = 10
+weight = 30
 sort_by = "weight"
 template = "docs/page.html"
 
