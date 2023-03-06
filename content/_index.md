@@ -29,6 +29,10 @@ weight = 30
 
 [[extra.list]]
 title = "Genesys"
-content = 'Скачать <a href="\files\Genesys Rus.pdf">правила Genesys</a>'
+content = 'Скачать <a href="/files/genesys-rus.pdf">правила Genesys</a>'
+
+[[extra.list]]
+title = "Персонаж"
+content = 'Как <a href="/docs/rules/create-character/">создать персонажа</a>'
 
 +++
