@@ -9409,7 +9409,7 @@ var mapData =[
       "z": 0
     },
     "owner": {
-      "id": "9",
+      "id": "0",
       "capital" : false
     },
     "id": 732
@@ -10098,7 +10098,7 @@ var mapData =[
       "z": 0
     },
     "owner": {
-      "id": "9",
+      "id": "0",
       "capital" : false
     },
     "id": 785
