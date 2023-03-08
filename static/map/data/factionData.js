@@ -154,5 +154,11 @@ var factionData ={
 		"name": "Silesian Confederacy - Breslau Sector",
 		"color": "#ccff00",
 		"logo": "./map/logo/silesia.png",
-	}
+	},
+	"29":{
+		"id": "29",
+		"name":  "Masada", //"Anderman Empire - Silesia",
+		"color": "#ccff00", //"#f5f50a",
+		"logo": "./map/logo/unknown2.png", // "./map/logo/ImperialAndermaniNavySign.jpg",
+	},
 }
