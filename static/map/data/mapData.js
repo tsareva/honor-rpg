@@ -120,7 +120,7 @@ var mapData =[
     "id": 10
   },
   {
-    "name": "",
+    "name": "Joshua",
     "position": {
       "x": 327,
       "y": -587,

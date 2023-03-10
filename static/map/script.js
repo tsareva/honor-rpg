@@ -267,7 +267,7 @@ redraw(mapData);
 
 var getMapData = function () {
 	data = mapData;
-	$('#date').text('Generated: ' + data.generated);
+	$('#date').text('Карта на 1899 PD');
 	$('#date').data('date', data.generated);
 	redraw(mapData);
 }
