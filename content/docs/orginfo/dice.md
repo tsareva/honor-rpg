@@ -14,3 +14,5 @@ top = false
 +++
 
 У Genesys специальные дайсы. Их не купить в России, если кто сможет купить круто. Я купил много дайсов (едут с Али), будем клеить [наклейки](</files/dice-creation.zip>). 
+
+Есть [приложение для Android](https://play.google.com/store/apps/details?id=fr.sevenpixels.dice) которое умееет кидать кубики Genesys
