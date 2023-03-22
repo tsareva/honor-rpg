@@ -64,5 +64,15 @@ var hyperJuntionData =[
 				"ly": 332
 				}		
 			]
+		},
+		,
+		{
+			"junction": "14",
+			"termini":[
+				{
+				"dest": "215",
+				"ly": 0
+				},	
+			]
 		}
 ]

@@ -156,7 +156,7 @@ var mapData =[
     "id": 13
   },
   {
-    "name": "",
+    "name": "Mesa",
     "position": {
       "x": -1294,
       "y": -558,
@@ -2681,7 +2681,7 @@ var mapData =[
     "id": 214
   },
   {
-    "name": "",
+    "name": "Visigoth",
     "position": {
       "x": -114,
       "y": 392,
@@ -4696,7 +4696,7 @@ var mapData =[
     "id": 369
   },
   {
-    "name": "",
+    "name": "Mannerheim",
     "position": {
       "x": -586,
       "y": 1083,
