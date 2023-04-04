@@ -4,7 +4,7 @@ title = "Модуль по хонор"
 
 # The homepage contents
 [extra]
-lead = 'Все по модулю Леоцарева по <b>вселенной хонор</b>'
+lead = 'Все по модулю Царевых по <b>вселенной хонор</b>'
 url = "/docs/orginfo/teaser/"
 url_button = "Тизер"
 
