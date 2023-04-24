@@ -9799,7 +9799,7 @@ var mapData =[
       "z": 0
     },
     "owner": {
-      "id": "0",
+      "id": "9",
       "capital" : false
     },
     "id": 762
