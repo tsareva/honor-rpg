@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="preload" as="font" href="https://honor-rpg.leotsarev.ru/fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="https://honor-rpg.leotsarev.ru/fonts/vendor/jost/jost-v4-latin-700.woff2"  type="font/woff2" crossorigin>
+
+
+<link rel="stylesheet" href="https://honor-rpg.leotsarev.ru/main.css">
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+  
+  
+    
+  
+  
+  
+  
+    
+  
+  
+  
+
+
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+
+	
+
+
+	
+
+<title>Мантикора | Хонор</title>
+<meta name="description" content="Что нужно знать про Мантикору">
+<link rel="canonical" href="https://honor-rpg.leotsarev.ru/docs/setting/manticore/">
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    
+      
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          {
+            "@type": "ListItem",
+            "position":  1 ,
+            "name": "Home",
+            "item": "https://honor-rpg.leotsarev.ru/"
+          },
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  2 ,
+            "name": "Docs",
+            "item": "https://honor-rpg.leotsarev.ru/docs/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  3 ,
+            "name": "Setting",
+            "item": "https://honor-rpg.leotsarev.ru/docs/setting/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  4 ,
+            "name": "Manticore",
+            "item": "https://honor-rpg.leotsarev.ru/docs/setting/manticore/"
+          },
+        
+      
+    
+  }
+</script>
+
+
+
+
+
+
+  <meta name="theme-color" content="#fff">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://honor-rpg.leotsarev.ru/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://honor-rpg.leotsarev.ru/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://honor-rpg.leotsarev.ru/favicon-16x16.png">
+  
+    <link rel="manifest" href="https://honor-rpg.leotsarev.ru/site.webmanifest" crossorigin>
+  
+
+
+  
+
+</head>
+
+  
+
+<body class="docs single">
+  
+  
+  
+  
+<div class="header-bar fixed-top"></div>
+<header class="navbar fixed-top navbar-expand-md navbar-light">
+	<div class="container">
+		<input class="menu-btn order-0" type="checkbox" id="menu-btn">
+		<label class="menu-icon d-md-none" for="menu-btn"><span class="navicon"></span></label>
+		<a class="navbar-brand order-1 order-md-0 me-auto" href="https://honor-rpg.leotsarev.ru">Хонор</a>
+		<button id="mode" class="btn btn-link order-2 order-md-4" type="button" aria-label="Toggle mode">
+			<span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
+			<span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+		</button>
+		<ul class="navbar-nav fork-me order-3 order-md-5">
+			
+				
+					<li class="nav-item">
+						<a class="nav-link" href="https://github.com/leotsarev/honor-rpg"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg><span class="ms-2 visually-hidden">GitHub</span></a>
+					</li>
+				
+			
+		</ul>
+		<div class="collapse navbar-collapse order-4 order-md-1">
+			<ul class="navbar-nav main-nav me-auto order-5 order-md-2">
+				
+					
+				
+				
+				
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://honor-rpg.leotsarev.ru/docs/rules/">Хоумрулы</a>
+						</li>
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://honor-rpg.leotsarev.ru/docs/setting/">Сеттинг</a>
+						</li>
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://honor-rpg.leotsarev.ru/docs/orginfo/">Оргинфо</a>
+						</li>
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://honor-rpg.leotsarev.ru/docs/chars/">Персонажи</a>
+						</li>
+					
+				
+			</ul>
+			<div class="break order-6 d-md-none"></div>
+			
+		</div>
+	</div>
+</header>
+
+
+
+  
+<div class="wrap container" role="document">
+  <div class="content">
+    <div class="row flex-xl-nowrap">
+	  
+<div class="col-lg-5 col-xl-4 docs-sidebar">
+	<nav class="docs-links" aria-label="Main navigation">
+			
+			
+			
+			
+					
+					
+					
+					
+					
+					
+							<h3>Сеттинг</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://honor-rpg.leotsarev.ru/docs/setting/intro/">Введение в сеттинг</a></li>
+							                           
+									<li><a class="docs-link" href="https://honor-rpg.leotsarev.ru/docs/setting/haven/">Хевен</a></li>
+							                           
+									<li><a class="docs-link" href="https://honor-rpg.leotsarev.ru/docs/setting/haven-hymn/">Гимн Хевена</a></li>
+							                           
+									<li><a class="docs-link" href="https://honor-rpg.leotsarev.ru/docs/setting/fleet/">Флот</a></li>
+							                           
+									<li><a class="docs-link" href="https://honor-rpg.leotsarev.ru/docs/setting/haven-ustav/">Устав Народного флота</a></li>
+							                           
+									<li><a class="docs-link active" href="https://honor-rpg.leotsarev.ru/docs/setting/manticore/">Мантикора</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Хоумрулы</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://honor-rpg.leotsarev.ru/docs/rules/create-character/">Создание персонажа</a></li>
+							                           
+									<li><a class="docs-link" href="https://honor-rpg.leotsarev.ru/docs/rules/skills/">Скиллы</a></li>
+							                           
+									<li><a class="docs-link" href="https://honor-rpg.leotsarev.ru/docs/rules/talents/">Таланты</a></li>
+							                           
+									<li><a class="docs-link" href="https://honor-rpg.leotsarev.ru/docs/rules/medicine/">Медицина</a></li>
+							                           
+									<li><a class="docs-link" href="https://honor-rpg.leotsarev.ru/docs/rules/equip/">Снаряжение</a></li>
+							
+					</ul>
+					
+					
+					
+					
+					
+					
+					
+							<h3>Оргинфо</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://honor-rpg.leotsarev.ru/docs/orginfo/teaser/">Тизер</a></li>
+							                           
+									<li><a class="docs-link" href="https://honor-rpg.leotsarev.ru/docs/orginfo/dice/">Дайсы</a></li>
+							                           
+									<li><a class="docs-link" href="https://honor-rpg.leotsarev.ru/docs/orginfo/charsheet/">Чаршиты</a></li>
+							
+					</ul>
+					
+					
+			
+	</nav>
+</div>
+
+	  
+  
+  <nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+  	<div class="page-links">
+  			<h3>On this page</h3>
+  			<nav id="TableOfContents">
+  					<ul>
+  							
+  							<li><a href="https://honor-rpg.leotsarev.ru/docs/setting/manticore/#chto-nuzhno-znat-pro-mantikoru">Что нужно знать про Мантикору</a></li>
+  							
+  							
+  							<li><a href="https://honor-rpg.leotsarev.ru/docs/setting/manticore/#tituly">Титулы</a></li>
+  							
+  							
+  							<li><a href="https://honor-rpg.leotsarev.ru/docs/setting/manticore/#dueli">Дуэли</a></li>
+  							
+  							
+  							<li><a href="https://honor-rpg.leotsarev.ru/docs/setting/manticore/#politicheskie-partii">Политические партии</a></li>
+  							
+  							
+  					</ul>
+  			</nav>
+  	</div>
+  </nav>
+  
+
+      <main class="docs-content col-lg-11 col-xl-9">
+        <h1>Мантикора</h1>
+        
+        <p><img src="../ariel-cat.jpg" alt="Кот Ариэль" />
+<img src="../queen-elizabeth.jpg" alt="Королева Елизавета III" /></p>
+<p><strong>Кот Ариэль и Ее Величество Елизавета III, Королева Мантикоры.</strong></p>
+<h2 id="chto-nuzhno-znat-pro-mantikoru">Что нужно знать про Мантикору</h2>
+<ul>
+<li>Относительно <strong>маленькая</strong>, нация. По размеру можно её представлять как Данию или Англию без колоний. В настоящий момент в нее входит 3 планеты в собственно Мантикорской системе, а также космические станции около терминалов Мантикорского узла туннельой сети. Для сравнения — в Соларианской лиге около 2000 планет.</li>
+<li>Относительно <strong>немолодая</strong> нация. Колонисты отбыли в анабиозе с Старой Земли 1200 лет назад и прибыли около 600 лет назад. </li>
+<li><strong>Богатая</strong> нация. Уровень жизни соответствует Центральным Мирам Соларианской Лигию. В Мантикоре отсутствуют какие-либо системы <strong>социальной поодержки</strong>, кроме общедоступных регулируемых государством кредитов на пролонг.</li>
+<li>Главный источник богатства это <strong>межзвездная торговля</strong> — налоги с туннельной сети, коммерческое судоходство, судостроение, ремонт, обслуживание и т.д. Нация зависит от торговли. </li>
+<li>Там, куда пробирается мантикорский торговец, рано или поздно, последует и флаг <strong>Королевского Флота Мантикоры</strong>. Наш флот не велик, но храбр, оснащен, обучен, и капитаны КФМ вступятся за мантикорского коммерсанта перед любыми державами. Впрочем, главное оружие мантикорца — доллар и бухгалтерская книга.</li>
+<li>Ситуацию в <strong>экономике</strong> Мантикоры можно охарактеризовать умеренно оптимистичную. Королевство бурно растет, и в коридорах Парламента уже мыслят себя первейшей державой сектора —  благодаря упорному труду и предпринимательскому духу мантикорского джентльмена. И благодаря туннельному узлу.</li>
+<li>На Мантикору прибывает много <strong>иммигрантов</strong>, ведь народу на Мантикоре живет не так много, а рабочих мест торговый и военный флоты создают немало.</li>
+</ul>
+<h2 id="tituly">Титулы</h2>
+<ul>
+<li>Титулярная аристократия Мантикоры. Потомок Акционеров Мантикорской Компании, у семьи персонажа есть наследственный титул и место в палате Лордов. Спесь людей, которые заплатили за планету своими деньгами, многовековое состояние, несравненные права и строгие обязанности. Скорее всего подразумевает архетип «Аристократ».</li>
+<li>Йомены. Потомки иммигрантов второй волны, которые самостоятельно оплатили себе перелет и получили (и смогли сохранить) свой земельный грант. Наследственная гордость людей, которые никому никогда ничего не были должны, семейный дом, построенный полтысячи лет назад, право голоса, унаследованное от предков. Верная опора Мантикорской Короны.</li>
+<li>Остальные. Иммигранты второй волны, прибывшие в кредит, йомены, продавшие свой земельный грант, иммигранты более поздних волн. Право голоса зависит от уплачиваемых налогов (правило «на доллар больше»).</li>
+</ul>
+<h2 id="dueli">Дуэли</h2>
+<p>Законы Звездного Королевства разрешают аристократам и офицерам (не делая разницы между мужчинами и женщинами) участие в дуэлях, хотя некоторые и считают дуэли варварским обычаем.</p>
+<p>Дуэли имеют своей целью защиту самолюбия, чести и достоинства оскорбленного. Вызов на дуэль лишает оскорбленного права на судебное удовлетворение (и наоборот).
+Правила дуэли: только лично, одно удовлетворение за одно оскорбление, только пистолеты, оскорбленный выбирает уровень жесткости.</p>
+<h2 id="politicheskie-partii">Политические партии</h2>
+<p><strong>Центристы</strong>. Партия Королевы. Выступают за статус кво во внутренней политике и агрессивную внешнюю политику с опорой на национальные интересы. В настоящий момент формируют правительство. </p>
+<p><strong>Консерваторы</strong>. Партия Палаты Лордов. За аристократию, привиллегии, против мигрантов. За блестящую изоляцию и невмешательство во внутренние дела других стран.</p>
+<p><strong>Либералы</strong>. Партия Палат Общин. За налоги на богачей, социальные программы, огосударствление экономики, мягкую силу и дипломатические и культурные способы влияния на другие страны. За поддержку мигрантов, за борьбу с работорговлей.</p>
+
+        
+        
+<div class="docs-navigation d-flex justify-content-between">
+  
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+            
+            
+            
+          
+        
+      
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+          
+          
+          <a class="ms-auto" href="https:&#x2F;&#x2F;honor-rpg.leotsarev.ru&#x2F;docs&#x2F;rules&#x2F;create-character&#x2F;">
+            <div class="card my-1">
+              <div class="card-body py-2">
+                Создание персонажа &rarr;
+              </div>
+            </div>
+          </a>
+          
+          
+          
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+  
+</div>
+
+      </main>
+    </div>
+  </div>
+</div>
+
+
+  
+    
+<footer class="footer text-muted">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 order-last order-lg-first">
+				<ul class="list-inline">
+					
+						<li class="list-inline-item">Сделано при помощи <a href="https://www.getzola.org/">Zola</a> и <a href="https://github.com/aaranxu/adidoks">AdiDoks</a></li>
+					
+				</ul>
+			</div>
+			<div class="col-lg-8 order-first order-lg-last text-lg-end">
+				<ul class="list-inline">
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+  
+
+  
+<script type="text/javascript" src="https://honor-rpg.leotsarev.ru/js/main.js" defer></script>
+
+  
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!-- DOCTYPE html>
+<!-- saved from url=(0038)http://communitywarfare.herokuapp.com/ -->
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Honorverse Map</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <link rel="stylesheet" href="./map/bootstrap.min.css">
+      <link rel="stylesheet" href="./map/style.css">
+	  <script src="./map/data/mapData.js"></script>
+	  <script src="./map/data/hyperJuntionData.js"></script>
+	  <script src="./map/data/factionData.js"></script>
+      <script src="./map/jquery.min.js"></script>
+      <style type="text/css"></style>
+      <script src="./map/bootstrap.min.js"></script><script src="./map/script.js"></script>
+	  
+   </head>
+   <body style="-webkit-user-select: none;">
+      <div id="canvas-container">
+         <canvas id="map" width="1920" height="635"></canvas>
+         <img src="./map/loading.gif" class="loading-animation" style="display: none;">
+      </div>
+      <nav class="navbar navbar-default navbar-fixed-bottom">
+         <div class="container-fluid">
+            <div class="navbar-header">
+               <button type="button" data-toggle="collapse" data-target="#navbar" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+               <div class="navbar-brand">Honnorverse map&nbsp;<span class="label label-info">Beta</span></div>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+               <ul class="navbar-nav nav">
+                  <li><a href=""><img src="" class=""></a></li>
+                  <li>
+                     <div id="date" class="navbar-text">Generated: Sun, 16 Aug 3050 14:15:01</div>
+                  </li>
+               </ul>
+               <ul class="nav navbar-nav navbar-right">
+                  <li class="dropdown">
+                     <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle">Credits<span class="caret"></span></a>
+                     <ul role="menu" class="dropdown-menu">
+                        <li><a href="http://forums.davidweber.net/viewtopic.php?f=1&t=5544">SWM for the base map</a></li>
+                        <li><a href="http://www.gotshifted.com/honorverseglossary/HONORVERSEGLOSSARY.html">Honorverse Glossary map collections and trivia</a></li>
+                        <li><a href="http://honorverse.wikia.com/wiki/Main_Page">Honorverse Wiki for some logos</a></li>
+						<li><a href="http://communitywarfare.herokuapp.com/">Original MWO Map viewer</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <aside style="margin-top:1em" class="col-xs-12 col-sm-4 col-md-3 navbar-fixed-bottom">
+         <div class="panel panel-default">
+            <div class="panel-heading">
+               <h3 id="starname" class="panel-title">New India</h3>
+            </div>
+            <div class="panel-body">
+               <div>
+                  <img id="starownerimage" class="factionicon col-xs-4" src="">
+                  <div class="col-xs-8">
+                     Owner:&nbsp;<span id="starowner">??</span>
+                     <div id="starownerunit"></div>
+                  </div>
+               </div>
+               <hr class="stardivider col-xs-12">
+               <div>
+                  <img id="starinvaderimage" class="factionicon col-xs-4" style="display: none;" src="">
+                  <div class="col-xs-8">
+                     Invader:&nbsp;<span id="starinvader">None</span>
+                     <div>
+                        Star ID:
+                        <span id="starid" >
+                           
+                        </span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </aside>
+   </body>
+</html>
+
